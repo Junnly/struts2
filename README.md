@@ -19,3 +19,9 @@ JSP+Serclet+JavaBean = model2
                  第三步：如果没有，则报错。
         如果不存在：第二步：检查上已经路径的package是否存在(直到namespace),重复第一步
                    第三步：如果没有，则报错。
+                   
+  Struts工作流程：   MVC:view ---jsp
+                        Controller -- ActionServlet
+                        Model----ActionForm
+                        
+                request出现的时候，通过各层filter过滤器分发请求， 通过Action找到可以实现的
